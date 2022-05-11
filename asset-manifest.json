@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/barth007.github.io/hr-hiring/static/css/main.72bf30d6.chunk.css",
+    "main.js": "/barth007.github.io/hr-hiring/static/js/main.7e236389.chunk.js",
+    "main.js.map": "/barth007.github.io/hr-hiring/static/js/main.7e236389.chunk.js.map",
+    "runtime-main.js": "/barth007.github.io/hr-hiring/static/js/runtime-main.21f41451.js",
+    "runtime-main.js.map": "/barth007.github.io/hr-hiring/static/js/runtime-main.21f41451.js.map",
+    "static/js/2.7fa674d1.chunk.js": "/barth007.github.io/hr-hiring/static/js/2.7fa674d1.chunk.js",
+    "static/js/2.7fa674d1.chunk.js.map": "/barth007.github.io/hr-hiring/static/js/2.7fa674d1.chunk.js.map",
+    "index.html": "/barth007.github.io/hr-hiring/index.html",
+    "static/css/main.72bf30d6.chunk.css.map": "/barth007.github.io/hr-hiring/static/css/main.72bf30d6.chunk.css.map",
+    "static/js/2.7fa674d1.chunk.js.LICENSE.txt": "/barth007.github.io/hr-hiring/static/js/2.7fa674d1.chunk.js.LICENSE.txt",
+    "static/media/logo.13305dc0.png": "/barth007.github.io/hr-hiring/static/media/logo.13305dc0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.21f41451.js",
+    "static/js/2.7fa674d1.chunk.js",
+    "static/css/main.72bf30d6.chunk.css",
+    "static/js/main.7e236389.chunk.js"
+  ]
+}
