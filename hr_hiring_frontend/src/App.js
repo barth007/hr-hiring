@@ -1,21 +1,43 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React, { StrictMode } from 'react';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import './App.css';
+import SignIn from './component/Login';
+import SignUP from './component/Register';
+import CandidateHomeScreen from './component/CandidateHomeScreen';
 
-class App extends Component {
-  render() {
+
+function App() {
+ 
     return (
       <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Router>
+          <StrictMode>
+          
+
+            <Routes>
+            <Route exact path="/" element={<SignUP/>}>
+
+            </Route>
+            <Route exact path="/login" element={<SignIn/>}>
+
+            </Route>
+
+            <Route exact path="/home" element={<CandidateHomeScreen/>}>
+            </Route>
+           
+            
+
+            </Routes>
+          
+
+            
+            
+          </StrictMode>
+        </Router>
+        
       </div>
     );
-  }
+
 }
 
 export default App;
