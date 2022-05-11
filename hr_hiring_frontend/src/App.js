@@ -12,8 +12,8 @@ function App() {
  
     return (
       <div className="App">
-        {/* <Router> */}
-        <HashRouter>
+        <Router>
+        
 
           <StrictMode>
           
@@ -37,8 +37,8 @@ function App() {
             
             
           </StrictMode>
-          </HashRouter>
-        {/* </Router> */}
+         
+        </Router>
         
       </div>
     );
