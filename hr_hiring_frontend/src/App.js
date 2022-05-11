@@ -4,13 +4,17 @@ import './App.css';
 import SignIn from './component/Login';
 import SignUP from './component/Register';
 import CandidateHomeScreen from './component/CandidateHomeScreen';
+import {  HashRouter } from 'react-router-dom'
+
 
 
 function App() {
  
     return (
       <div className="App">
-        <Router>
+        {/* <Router> */}
+        <HashRouter>
+
           <StrictMode>
           
 
@@ -33,7 +37,8 @@ function App() {
             
             
           </StrictMode>
-        </Router>
+          </HashRouter>
+        {/* </Router> */}
         
       </div>
     );
