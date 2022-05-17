@@ -1,10 +1,8 @@
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyAAi7Kw1xTgLtJQzYEtr4WzaUWYpkHrAcI",
-    authDomain: "dowell-frontend.firebaseapp.com",
-    projectId: "dowell-frontend",
-    storageBucket: "dowell-frontend.appspot.com",
-    messagingSenderId: "574058778903",
-    appId: "1:574058778903:web:55f104f347f50f5a2e6752",
-    measurementId: "G-87V3KRQP5F"
+    apiKey: "AIzaSyCZ9F60jg6nJsu3wMmddXmVhOEZS9nhFtk",
+    authDomain: "dowell-frontend-c8bee.firebaseapp.com",
+    projectId: "dowell-frontend-c8bee",
+    storageBucket: "dowell-frontend-c8bee.appspot.com",
+    messagingSenderId: "987203101245",
+    appId: "1:987203101245:web:556a9c215d229473ae0054"
   };

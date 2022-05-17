@@ -1,15 +1,25 @@
 .navbar {
-    height: 50px;
-    width: 100%;
+    height: 60px;
     display: flex;
     justify-content: start;
     align-items: center;
+    width: 100%;
     position:fixed;
+    top:0;
+    /* overflow: hidden; */
     box-shadow:  0 7px 15px rgba(13, 17, 15, 28%);
-
+    z-index: 1;
     transition-timing-function: ease-in;
     transition: all 0.5s;
-
+  }
+  .navbar-toggle {
+    background-color: #E0E0E0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    transition:all 0.3s linear;
   }
   .nav__grey{
     background-color: #ACABAB;
@@ -26,13 +36,25 @@
   .nav-menu {
     background-color: #E0E0E0;
     width: 500px;
-    height: 100vh;
+    height: 93.5vh;
     display: flex;
     justify-content: center;
     position: fixed;
     top: 0;
     left: -100%;
     transition: 850ms;
+    z-index: 1;
+
+  }
+  .page__title{
+    margin-left: 2rem;
+    padding-top: 2px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
   }
   
   .nav-menu.active {
@@ -75,17 +97,7 @@
 
   }
   
-  .navbar-toggle {
-    background-color: #E0E0E0;
-    width: 100%;
-    height: 80px;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    transition:all 0.3s linear;
-  
-
-  }
+ 
   
   span {
     margin-left: 16px;
@@ -118,37 +130,22 @@
     transition: 0.5s;
   }
 
-  .modal-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(73, 166, 233, 0.5);
-    display: grid;
-    place-items: center;
-    transition: var(--transition);
-    visibility: hidden;
-    z-index: -10;
-  }
-  .open-modal {
-    visibility: visible;
-    z-index: 10;
-  }
+
   @media screen and (max-width: 2000px) {
     .nav-menu{
       width: 500px;    
-      height: 100%;
+    
 
     }
-    .navbar{
-      width: 100%;
-    }
+    
     .logout-button{
       margin-top: 520px;
     margin-bottom: 40px;
     margin-left: 316px;
     margin-right: 40px;
+    }
+    .navbar{
+      width: 100%;
     }
   
   }
@@ -156,33 +153,35 @@
   @media screen and (max-width: 1500px) {
     .nav-menu{
       width: 500px;   
-      height: 100%;
- 
-
+      
     }
-    .navbar{
-      width: 100%;
-    }
+    
     .logout-button{
-      margin-top: 200px;
+      margin-top: 100px;
     margin-bottom: 40px;
     margin-left: 307px;
     margin-right: 40px;
     }
+    .navbar{
+      width: 100%;
+    }
   
+  }
+  @media screen and (max-width:1030px) {
+    .navbar{
+      width: 100%;
+    }
+    
   }
   
 
   @media screen and (max-width: 600px) {
     .nav-menu{
       width: 250px;    
-      height: 100%;
 
 
     }
-    .navbar{
-      width: 100%;
-    }
+   
     .logout-button{
       margin-top: 266px;
     margin-bottom: 40px;
@@ -196,13 +195,11 @@
   @media screen and (max-width: 450px) {
     .nav-menu{
       width: 250px;    
-      height: 100%;
 
 
     }
-    .navbar{
-      width: 100%;
-    }
+    
+    
     .logout-button{
       margin-top: 209px;
     margin-bottom: 40px;

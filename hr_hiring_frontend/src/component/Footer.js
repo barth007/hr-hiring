@@ -50,16 +50,16 @@ export default function SimpleBottomNavigation() {
 
         <BottomNavigationAction classes={classes.root} 
         style={{color: '#838383', activeColor:'#000000'}} label="Home" 
-        icon={<AiIcons.AiOutlineHome  fontSize="24px"  color="#838383"/>}  component={Link} to="/"/>
+        icon={<AiIcons.AiOutlineHome  fontSize="24px"  color="#838383"/>}  component={Link} to="/home"/>
         <BottomNavigationAction label="Applied" 
         style={{color: '#838383'}} 
-        icon={<RiIcons.RiSendPlaneLine fontSize="24px" color="#838383"/>} />
+        icon={<RiIcons.RiSendPlaneLine fontSize="24px" color="#838383"/>} component={Link} to="/applied" />
         <BottomNavigationAction label="Alerts" 
         style={{color: '#838383'}} 
-        icon={<BsIcons.BsBell fontSize="24px" color="#838383"/>} />
+        icon={<BsIcons.BsBell fontSize="24px" color="#838383"/>} component={Link} to="/alerts"/>
         <BottomNavigationAction label="user" 
         style={{color: '#838383'}} 
-        icon={<BiIcons.BiUser fontSize="24px" color="#838383" /> } />
+        icon={<BiIcons.BiUser fontSize="24px" color="#838383" /> } component={Link} to="/user"/>
 
 
       </BottomNavigation>

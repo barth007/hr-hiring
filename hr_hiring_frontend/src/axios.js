@@ -1,7 +1,7 @@
 import axios from "axios";
 
 
-const baseURL ='http://100055.pythonanywhere.com/api/';
+const baseURL ='https://100055.pythonanywhere.com/api/';
  const axiosInstance = axios.create({
      baseURL:baseURL,
      timeout:5000,
@@ -30,7 +30,7 @@ const baseURL ='http://100055.pythonanywhere.com/api/';
          }
          if (
              error.response.status===401 &&
-             originalRequest.url === baseURL + 'token/refresh'
+             originalRequest.url === baseURL + 'token/refresh/'
          ){
              window.location.href='/login';
              return Promise.reject(error);
@@ -47,7 +47,7 @@ const baseURL ='http://100055.pythonanywhere.com/api/';
                  console.log(tokenParts.exp);
                  if(tokenParts.exp > now ){
                      return axiosInstance
-                        .post ('/token/refresh/', {refresh:refreshToken})
+                        .post ('accounts/token/refresh/', {refresh:refreshToken})
                         .then ((response)=>{
                             localStorage.setItem('access_token', response.data.access);
                             localStorage.setItem('refresh_token', response.data.refresh);
