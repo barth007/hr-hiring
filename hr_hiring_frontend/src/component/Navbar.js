@@ -11,6 +11,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 // import Box from '@mui/material/Box';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import { NavLink } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 
 
@@ -37,6 +38,7 @@ function Navbar( {title}) {
   const [sidebar, setSidebar] = useState(false);
   const [show, handleShow]=useState(false);
   const [cover, setCoverScreen]=useState(false);
+  const navigate=useNavigate();
   
 
   const showSidebar = () => setSidebar(!sidebar);
@@ -90,8 +92,8 @@ function Navbar( {title}) {
               );
             })}
            
-           <button component={NavLink}
-							to="/logout"className='logout-button'>Logout</button>
+           <button onClick={()=>navigate('/logout')}
+							className='logout-button'>Logout</button>
           </ul>
           
         </nav>

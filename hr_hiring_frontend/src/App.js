@@ -8,7 +8,7 @@ import {  HashRouter } from 'react-router-dom';
 import Logout from './component/Logout';
 import AlertScreen from './component/screens/AlertScreen';
 import UserScreen from './component/screens/UserScreen';
-
+import TaskScreen from './component/screens/TaskScreen';
 
 function App() {
   
@@ -26,6 +26,8 @@ function App() {
             <Route exact path="/logout" element={<Logout/>}/>
             <Route exact path="/alerts" element={<AlertScreen/>}/>
             <Route exact path="/user" element={<UserScreen/>}/>
+            <Route exact path="/task" element={<TaskScreen/>}/>
+
 
             
 

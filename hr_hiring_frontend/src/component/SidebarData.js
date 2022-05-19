@@ -6,25 +6,30 @@ import * as IoIcons from 'react-icons/io';
 export const SidebarData = [
   {
     title: 'Notification alerts',
-    path: '/',
+    path: '/alerts',
+    cName: 'nav-text'
+  },
+  {
+    title: 'Task',
+    path: '/task',
     cName: 'nav-text'
   },
   {
     title: 'Settings',
-    path: '/reports',
+    path: '',
     // icon: <IoIcons.IoIosPaper />,
     cName: 'nav-text'
   },
   {
     title: 'Terms & Condition',
-    path: '/products',
+    path: '',
     // icon: <FaIcons.FaCartPlus />,
     cName: 'nav-text'
   },
   {
     // icon: <IoIcons.IoMdPeople />,
     title: 'Support',
-    path: '/team',
+    path: '',
     cName: 'nav-text'
   },
  
