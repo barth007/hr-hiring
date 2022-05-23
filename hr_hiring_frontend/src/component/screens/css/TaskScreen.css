@@ -89,6 +89,24 @@ border-radius: 5px;
     padding-top: 6px;
 }
 
+@media screen and (max-width: 1200px) {
+    .taskScreen__body{
+        /* padding-top: 15%; */
+        width: 100%;
+
+    }
+    .project{
+        margin-left: 496px;
+    }
+    .task__status{
+        margin-left: 541px;
+    }
+    .status__date{
+        padding-left: 65%;
+    }
+
+  }
+
 
 @media screen and (max-width: 1000px) {
     .taskScreen__body{

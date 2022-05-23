@@ -3,7 +3,6 @@ import SecondNavbar from '../SecondNavbar';
 import './css/TaskScreen.css';
 import * as AiIcons from 'react-icons/ai';
 import { IconContext } from 'react-icons';
-import { BsJustify } from 'react-icons/bs';
 
 
 
