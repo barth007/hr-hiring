@@ -37,7 +37,6 @@ const theme = createTheme({
 function Navbar( {title}) {
   const [sidebar, setSidebar] = useState(false);
   const [show, handleShow]=useState(false);
-  const [cover, setCoverScreen]=useState(false);
   const navigate=useNavigate();
   
 
