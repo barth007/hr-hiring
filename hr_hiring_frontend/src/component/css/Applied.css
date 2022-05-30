@@ -8,7 +8,7 @@
     position: relative;
     display: flex;
     height: 50px;
-    width: 84%;
+    width: 96%;
     overflow: hidden;
     margin: 30px 0 10px 0;
     justify-content: space-between;
@@ -69,7 +69,7 @@
 
   .cards{
     position: relative;
-    width: 335px;
+    width: 388px;
     height: 100px;
     border: 1px solid gray;
 }
@@ -97,7 +97,7 @@
     font-size: 12px;
     line-height: 15px;
     color: #838383;
-    padding-left: 26%;
+    padding-left: 36%;
 }
 
 .applied__status{
@@ -115,13 +115,13 @@
    
 }
 .applied__status li span{
-    margin-left: 43%;
+    margin-left: 51%;
 }
 
 .cards__body{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 335px;
+    width: 388px;
     height: auto;
     border-radius: 10px;
     top: 122px;
@@ -176,7 +176,7 @@
   .bottom__side{
       display: flex;
       padding-top: 15%;
-      max-width: 335px;
+      max-width: 364px;
       margin-left: auto;
       margin-right: auto;
   }
@@ -225,7 +225,7 @@
         font-size: 14px;
         line-height: 17px;    
         color: #838383;
-        width:117px;
+        width:139px;
         margin-top: 35px;
   }
 
@@ -234,7 +234,7 @@
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
-    width: 32%;
+    width: 30%;
 
 }
 
@@ -251,7 +251,7 @@
 
 .applied__card{
    
-    margin-left: -51%;
+    margin-left: -57%;
 
 
 
@@ -265,7 +265,7 @@
 }
 .interview__card{
    
-    margin-left: -91%;
+    margin-left: -103%;
 
 
 }
@@ -278,13 +278,19 @@
     margin-left: -17px;
 }
 
+@media screen and (max-width: 1280px) {
+    .containers{
+        width: 32%;
+    }
+}
+
 @media screen and (max-width: 1100px) {
     .containers{
-        width: 46%;
+        width: 52%;
 
     }
     .slide-controls{
-        width: 73%;
+        width: 74%;
 
     }
     .interview__card{
@@ -304,7 +310,7 @@
 
 @media screen and (max-width: 1000px) {
     .slide-controls{
-        width: 81%;
+        width: 84%;
     }
     .interview__card{
         margin-left: -90%;
@@ -320,21 +326,21 @@
 
 @media screen and (max-width: 900px) {
     .containers{
-        width: 46%; 
+        width: 50%; 
     }
     .slide-controls{
-        width: 91%;
+        width: 95%;
     }
     .applied__card{
         margin-left: -56%;
     }
     .interview__card{
-        margin-left: -100%;
+        margin-left: -102%;
     }
 }
 @media screen and (max-width: 790px) {
     .containers{
-        width: 49%;
+        width: 55%;
     }
     .applied__card{
         margin-left: -55%;
@@ -352,9 +358,18 @@
       width: 67%;
       padding-top: 5%;
   }
+  .cards{
+    width: 335px;
 
+  }
+.cards__body{
+    width: 335px;
+}
   .container__inner{
       width: 200%;
+  }
+  .bottom__side {
+      max-width: 335px;
   }
 
   .applied__card{
@@ -366,6 +381,16 @@
   .card__cover{
       margin-left: -15px;
   }
+  .text__row span {
+    
+    padding-left: 26%;
+}
+.applied__status li span{
+    margin-left: 43%;
+}
+.discord__link {
+    padding-left: 16%;
+}
  
 }
 
@@ -393,9 +418,21 @@
     }
 }
 
+@media screen and (max-width: 429px) {
+    .containers{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 414px) {
+    .containers{
+        width: 83%;
+    }
+}
+
+
 @media screen and (max-width: 400px) {
     .slide-controls{
-        width:99%;
+        width:100%;
     }
     .containers{
         width: 89%;
@@ -418,6 +455,12 @@
 
 }
 
+@media screen and (max-width: 390px) {
+    .containers{
+        width: 88%;
+    }
+}
+
 @media screen and (max-width: 380px) {
     .containers{
         width: 92%;
@@ -426,6 +469,24 @@
 
 @media screen and (max-width: 360px) {
     .cards{
-        width: 320px;
+        width: 305px;
+    }
+    .cards__body{
+        width: 305px;
+    }
+    .applied__status li span{
+        margin-left: 36%;
+    }
+    .text__row span{
+        padding-left:18%;
+    }
+    .applied__card{
+        margin-left: -428px;
+    }
+    .discord__link {
+        padding-left: 8%;
+    }
+    .containers{
+        width: 87%;
     }
 }
