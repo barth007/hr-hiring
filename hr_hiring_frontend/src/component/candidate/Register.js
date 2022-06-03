@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import axioInstance from '../axios';
+import axioInstance from '../../axios';
 import{useNavigate} from 'react-router-dom';
 // use the useNavigate to redirect the user after they've register
 
@@ -16,8 +16,8 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography'
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
-import requests from '../request';
-import logo from '../logo.png';
+import requests from '../../request';
+import logo from '../../logo.png';
 
 const useStyles = makeStyles((theme)=>({
     paper:{

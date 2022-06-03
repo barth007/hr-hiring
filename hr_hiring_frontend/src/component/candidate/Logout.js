@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
-import axiosInstance from '../axios';
+import axiosInstance from '../../axios';
 import { useNavigate } from 'react-router-dom';
-import requests from '../request';
+import requests from '../../request';
 
 
 function Logout() {

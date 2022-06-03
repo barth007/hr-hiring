@@ -142,8 +142,8 @@
 
   @media screen and (max-width: 1150px) {
     .column {
-      padding-left: 28px;
-      margin-left: 47px;
+      padding-left: 33px;
+      margin-left: 41px;
 
       
     }
@@ -162,7 +162,7 @@
 
   @media screen and (max-width: 950px) {
     .column {
-      padding-left: 30px;   
+      padding-left: 19px;   
     }
     .row{
       padding-left: 30px;
@@ -170,12 +170,20 @@
  
     
   }
+  @media screen and (max-width: 950px) {
+    .column{
+      padding-left: 15px;
+      margin-left: 20px;
+    }
+
+  }
+
 
 
   @media screen and (max-width: 900px) {
     .column {
 
-      padding-left: 13px;
+      padding-left: 0;
     }
     .row{
       padding-left: 20px;
@@ -183,9 +191,21 @@
  
   }
 
+  @media screen and (max-width: 850px) {
+    .column {
+      padding-left: 0px;
+      margin-left: 9px;
+
+      
+    }
+
+  }
+
+
   @media screen and (max-width: 770px) {
     .column {
       padding-left: 1px;
+      margin-left: 0;
       
 
     }
@@ -195,11 +215,17 @@
  
    
   }
-
+  @media screen and (max-width: 676px) {
+    .column{
+      padding-left: 72px;
+      margin-left: 50px;
+    }
+  }
   @media screen and (max-width: 590px) {
     .column {
  
-      padding-left: 47px;
+      padding-left: 30px;
+      margin-left: -34px;
       margin-bottom: -21px;
 
     }
@@ -275,6 +301,19 @@
  
     
   }
+
+  @media screen and (max-width: 320px) {
+    .card{
+      width: 257px;
+
+    }
+    .apply-button{
+      width: 66px;
+      margin-left: 169px;
+    }
+
+  }
+
   
     
   
